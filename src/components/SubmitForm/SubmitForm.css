@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    
+    color: rgb(241, 198, 77);
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+body {
+    /* background-image: url('../../wallpaper.jpg'); */
+    background-color: rgb(66, 48, 42);
+}
+
+.input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.add-button {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 15px;
+    outline: none;
+}
+
+.add-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.delete-button {
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.task {
+    color: rgba(238, 56, 11, 0.555);
+    font-size: 30px;
+    font-weight: bolder;
+    background: transparent;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.headAdd {
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
